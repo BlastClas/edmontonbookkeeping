@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edmonton Bookkeeping — QuickBooks ProAdvisor | Zandran Rodriguez</title>
+<meta name="description" content="Monthly bookkeeping for Edmonton small businesses and overflow support for CPA firms. QuickBooks ProAdvisor, books reconciled, current, and ready for year-end.">
+<meta name="theme-color" content="#0f2a43">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230f2a43'/><text x='50' y='71' font-size='60' text-anchor='middle' fill='%23e8b04b' font-family='Georgia,serif'>B</text></svg>">
+<style>
+  :root{
+    --navy:#0f2a43; --navy-2:#163a5c; --gold:#c6892f; --gold-soft:#e8b04b;
+    --ink:#1d2733; --muted:#5c6b7a; --line:#e2e8ef; --bg:#f7f9fb; --card:#ffffff;
+    --maxw:1060px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{line-height:1.2;color:var(--navy);margin:0 0 .5em}
+  h1{font-size:clamp(1.9rem,4.4vw,3rem);letter-spacing:-.5px}
+  h2{font-size:clamp(1.4rem,3vw,1.9rem);letter-spacing:-.3px}
+  p{margin:0 0 1rem}
+  a{color:var(--navy-2)}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  .btn{display:inline-block;font-weight:600;text-decoration:none;border-radius:8px;padding:.7rem 1.25rem;
+    transition:transform .08s ease, box-shadow .2s ease}
+  .btn:active{transform:translateY(1px)}
+  .btn-gold{background:var(--gold);color:#fff;box-shadow:0 6px 18px rgba(198,137,47,.28)}
+  .btn-gold:hover{background:#b3781f}
+  .btn-ghost{border:1.5px solid rgba(255,255,255,.55);color:#fff}
+  .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+
+  /* header */
+  header{background:var(--navy);color:#fff}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 22px;max-width:var(--maxw);margin:0 auto}
+  .brand{font-weight:700;font-size:1.15rem;color:#fff;text-decoration:none;letter-spacing:.2px}
+  .brand span{color:var(--gold-soft)}
+  .nav .contact{font-size:.95rem;color:#cdd8e3}
+  .nav .contact a{color:#fff;text-decoration:none;font-weight:600}
+
+  /* hero */
+  .hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 100%);color:#fff;padding:64px 0 72px}
+  .hero .wrap{max-width:820px}
+  .hero h1{color:#fff}
+  .hero .lede{font-size:1.2rem;color:#dbe6f0;margin-bottom:1.6rem;max-width:640px}
+  .hero .cta{display:flex;gap:14px;flex-wrap:wrap}
+  .cred{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+  .cred span{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);color:#eaf1f7;
+    font-size:.86rem;font-weight:600;padding:.4rem .8rem;border-radius:999px}
+
+  /* sections */
+  section{padding:56px 0}
+  .section-sub{color:var(--muted);max-width:640px;margin:-.2rem 0 2rem}
+  .grid{display:grid;gap:22px}
+  .two{grid-template-columns:1fr 1fr}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px 26px 22px;
+    box-shadow:0 1px 2px rgba(16,42,67,.04)}
+  .card h3{font-size:1.2rem;margin-bottom:.35rem}
+  .card .tag{display:inline-block;font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:.6rem}
+  ul.check{list-style:none;padding:0;margin:0}
+  ul.check li{position:relative;padding:.32rem 0 .32rem 1.7rem;border-bottom:1px solid var(--line)}
+  ul.check li:last-child{border-bottom:0}
+  ul.check li::before{content:"";position:absolute;left:0;top:.95rem;width:9px;height:9px;border-right:2px solid var(--gold);
+    border-bottom:2px solid var(--gold);transform:rotate(45deg)}
+  .alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .soft{color:var(--muted)}
+  .steps{counter-reset:s;display:grid;gap:16px;grid-template-columns:1fr 1fr 1fr}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px}
+  .step::before{counter-increment:s;content:counter(s);display:inline-flex;align-items:center;justify-content:center;
+    width:34px;height:34px;border-radius:9px;background:var(--navy);color:#fff;font-weight:700;margin-bottom:10px}
+  .step h3{font-size:1.05rem}
+
+  /* contact */
+  .contact-band{background:var(--navy);color:#fff;text-align:center;padding:60px 0}
+  .contact-band h2{color:#fff}
+  .contact-band p{color:#dbe6f0}
+  .contact-lines{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;margin-top:20px;font-size:1.1rem}
+  .contact-lines a{color:#fff;text-decoration:none;font-weight:600;border-bottom:2px solid var(--gold)}
+  footer{background:#0b2137;color:#93a6b8;font-size:.85rem;text-align:center;padding:22px}
+
+  @media(max-width:720px){
+    .two,.steps{grid-template-columns:1fr}
+    .nav .contact{display:none}
+    section{padding:44px 0}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="brand" href="#top">Edmonton <span>Bookkeeping</span></a>
+    <div class="contact">Call <a href="tel:+17808632147">780-863-2147</a></div>
+  </div>
+</header>
+
+<div class="hero" id="top">
+  <div class="wrap">
+    <h1>Small-business books, reconciled, current, and ready for year-end.</h1>
+    <p class="lede">Monthly bookkeeping for Edmonton-area businesses, and overflow capacity for CPA firms
+      with more files than hands. Your accounting time goes into accounting, never into cleanup.</p>
+    <div class="cta">
+      <a class="btn btn-gold" href="mailto:zandran@edmontonbookkeeping.com?subject=Bookkeeping%20enquiry">Email Zandran</a>
+      <a class="btn btn-ghost" href="tel:+17808632147">Call 780-863-2147</a>
+    </div>
+    <div class="cred">
+      <span>QuickBooks ProAdvisor · Online &amp; Desktop</span>
+      <span>MA, Financial Economics</span>
+      <span>11 years of full-cycle books for a $2.5M business</span>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>What you get</h2>
+    <p class="section-sub">Full-cycle monthly bookkeeping, handled end to end, so the numbers are right the
+      week something happens rather than a scramble at year-end.</p>
+    <ul class="check" style="columns:2;column-gap:40px">
+      <li>Journal entries, general ledger, month-end close, and adjusting entries</li>
+      <li>Bank, credit card, and payment-processor reconciliations</li>
+      <li>Accounts payable and receivable, from vendor terms through collections</li>
+      <li>Payroll through Payworks or Ceridian, with T4s, ROEs, and CRA remittances</li>
+      <li>GST returns prepared and filed on time</li>
+      <li>Catch-up and cleanup on neglected or behind files</li>
+      <li>Discrepancies chased down and documented, not left to compound</li>
+      <li>A year-end package your CPA can pick up and run with</li>
+    </ul>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="grid two">
+      <div class="card">
+        <span class="tag">For small businesses</span>
+        <h3>A flat monthly retainer, sized to your volume</h3>
+        <p class="soft">Quoted after a short scoping call, so the cost never surprises you. Your books stay
+          current every month, you see where the money went while you can still act on it, and tax season
+          becomes a quick handoff to your accountant.</p>
+      </div>
+      <div class="card">
+        <span class="tag">For CPA firms</span>
+        <h3>Overflow bookkeeping, done your way</h3>
+        <p class="soft">I work inside your file, follow your chart of accounts and naming conventions, and
+          clear your review notes promptly. You keep the client relationship and the year-end, and the
+          monthly grind comes off your desk.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>The background</h2>
+    <p class="section-sub" style="max-width:760px">For eleven years I ran the books, payroll, and GST for my
+      own Edmonton retail business, so I have sat on the client's side of the desk.</p>
+    <p style="max-width:820px">That meant $2.5M in annual revenue, 16 staff on payroll, 20 to 30 vendor
+      accounts on terms from net 15 to net 60, monthly reconciliations across bank, credit card, and
+      payment-processor deposits, and a clean CPA handoff every year-end. When your own cash flow depends on
+      the numbers being right, you learn to catch the error the week it happens, and that habit is what
+      you're actually hiring.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <p class="section-sub">A deliberately small client roster, so every file gets attention on a fixed monthly
+      cadence with clear turnaround dates.</p>
+    <div class="steps">
+      <div class="step"><h3>Scoping call</h3><p class="soft">A short conversation about your business, your
+        software, and where the books stand today.</p></div>
+      <div class="step"><h3>One messy month</h3><p class="soft">Prefer to judge the work first? Send me one
+        month and I'll turn it around before anything is committed.</p></div>
+      <div class="step"><h3>Steady monthly books</h3><p class="soft">Reconciled, current, and year-end ready,
+        on a fixed cadence you can count on.</p></div>
+    </div>
+    <p class="soft" style="margin-top:26px"><strong>Software:</strong> QuickBooks Online and Desktop
+      (ProAdvisor certified), Xero, Sage, Dext, Payworks, Ceridian, and Excel, plus Python automation for
+      bulk imports and cleanup when a file needs surgery.</p>
+  </div>
+</section>
+
+<div class="contact-band" id="contact">
+  <div class="wrap">
+    <h2>Let's set up a short call</h2>
+    <p>Email or call to arrange a scoping conversation. If you'd rather judge the work first, send me one
+      messy month and I'll turn it around.</p>
+    <div class="contact-lines">
+      <a href="mailto:zandran@edmontonbookkeeping.com?subject=Bookkeeping%20enquiry">zandran@edmontonbookkeeping.com</a>
+      <a href="tel:+17808632147">780-863-2147</a>
+      <a href="https://www.linkedin.com/in/zandran-rodriguez-163503218/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Edmonton Bookkeeping · Zandran Rodriguez · Serving Edmonton and the surrounding area ·
+  QuickBooks ProAdvisor (Online &amp; Desktop)
+</footer>
+
+</body>
+</html>
